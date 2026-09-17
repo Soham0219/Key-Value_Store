@@ -1,0 +1,49 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# Leftovers from an accidental in-source build (cmake . instead of cmake -S . -B build)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+Testing/
+compile_commands.json
+.cache/
+
+# Compiled output
+*.o
+*.a
+*.so
+*.dylib
+*.out
+a.out
+*.dSYM/
+
+# Data this server creates at runtime
+*.log
+*.replstate
+*.compact
+
+# Profiling
+perf.data
+perf.data.old
+*.gcda
+*.gcno
+callgrind.out.*
+core
+core.*
+
+# Not published yet
+DESIGN.md
+
+# Editors and OS
+.vscode/
+.idea/
+.clangd/
+*.swp
+.DS_Store
+Thumbs.db
