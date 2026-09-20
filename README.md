@@ -1,4 +1,4 @@
-# kvstore
+# KV-store
 
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue)](#requirements)
 [![tests](https://img.shields.io/badge/tests-8%20suites%20passing-brightgreen)](#tests)
